@@ -1,0 +1,3 @@
+git clone https://git.epam.com/Dzmitry_Shaplyka/js-mentoring-program.git
+ssh-keygen -t ed25519 -C "dzianis_slava1@epam.com"
+cd 
