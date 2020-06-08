@@ -1,5 +1,5 @@
 {
-  "name": "js-mentoring-program",
+  "name": "i-made-changes",
   "version": "0.0.1",
   "description": "Repository for learning tasks",
   "main": "index.js",
@@ -14,11 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.epam.com/Dzmitry_Shaplyka/js-mentoring-program.git"
+    "url": "https://github.com/DzianisSlava1/JS/tree/Task1"
   },
   "authors": [
     "Dzmitry_Shaplyka@epam.com",
-    "Oleksandr_Halichenko@epam.com"
+    "Oleksandr_Halichenko@epam.com",
+    "D"
   ],
   "license": "ISC",
   "dependencies": {
@@ -26,5 +27,7 @@
     "mocha": "^7.0.1",
     "node-fetch": "^2.6.0",
     "sinon": "latest"
+   }
+}
 
   
