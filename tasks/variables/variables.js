@@ -5,7 +5,9 @@ var int = 1;
 /**
  *  TODO create variable named int2 and set value equal int plus 1
  */
-var int2 = int ++ '1';
+var int2 = 1;
+int2++;
+var int2 = int2;
 /**
  * TODO create variable named str and set value equal to "John"
  */
@@ -13,7 +15,7 @@ var str = "John";
 /**
  * TODO create variable named str2 and set value equal str plus " Dou"
  */
-var str2 = str + "Dou";
+var str2 = str +  "Dou";
 /**
  * TODO create variable named bool and set value equal to comparison of int and int2 variables
  */
@@ -34,11 +36,8 @@ human = {firstName: "John"};
 /**
  * TODO set new key of human object named lastName and value "Dou"
  */
-var human;
-human = {lastName: "Dou"};
+var human = {lastName: "Dou"};
 /**
  * TODO set new key of human object named fullName and value of concatenation of firstName and lastName values
  */
-var human = "John";
-var human = "Dou";
-var human = "John" + "Dou";
+human.fullName = human.firstName + human.lastName;
