@@ -5,9 +5,7 @@ var int = 1;
 /**
  *  TODO create variable named int2 and set value equal int plus 1
  */
-var int2 = 1;
-int2++;
-var int2 = int2;
+var int2 = int + 1;
 /**
  * TODO create variable named str and set value equal to "John"
  */
@@ -27,7 +25,7 @@ var arr = [1, 2, 3, 4, 5];
 /**
  * TODO create variable named fifth and set value as element of array with index 4
  */
-var fifth = [4];
+var fifth = (arr[4]);
 /**
  * TODO create variable named human and set value as object with key firstName and value "John"
  */
@@ -36,7 +34,8 @@ human = {firstName: "John"};
 /**
  * TODO set new key of human object named lastName and value "Dou"
  */
-var human = {lastName: "Dou"};
+var human.lastName;
+ human.lastName = 'Dou';
 /**
  * TODO set new key of human object named fullName and value of concatenation of firstName and lastName values
  */
