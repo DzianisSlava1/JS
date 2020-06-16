@@ -34,8 +34,7 @@ human = {firstName: "John"};
 /**
  * TODO set new key of human object named lastName and value "Dou"
  */
-var human.lastName;
- human.lastName = 'Dou';
+human.lastName = "Dou";
 /**
  * TODO set new key of human object named fullName and value of concatenation of firstName and lastName values
  */
