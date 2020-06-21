@@ -12,8 +12,30 @@
 
 function calculateDiscount(redemption) {
   let discount;
+  let sum;
+  
+  while (sum <= 350) {
+    console.log(discount);
+    discount = 0%;
 
-  //PLACE YOUR CODE HERE
+    else if (sum <= 351 or >= 1350);
+     {
+      console.log(discount);
+      discount = 15%;
+
+      else if (sum <= 1351 or >= 2700);
+     {
+      console.log(discount);
+      discount = 30%;
+
+      else if (sum <= 2701 or >= 6500);
+     {
+      console.log(discount);
+      discount = 45%;
+
+      then sum += console.log(discount);
+
+  }
 
   return discount;
 }
@@ -23,6 +45,12 @@ function calculateDiscount(redemption) {
  */
 {
   const i = 10; //10! = 3628800
+  while ( i < 3628800) {console.log(i)
+  do i++;
+
+  };
+
+
 }
 
 /**
@@ -30,6 +58,11 @@ function calculateDiscount(redemption) {
  */
 {
   const substr = ["I", " love", " JS"];
+  substr.text1 = "I";
+  substr.text2 = "love";
+  substr.text3 = "JS";
+  substr.text41 = text1 + text2 + test3;
+
 }
 
 /**
@@ -41,6 +74,9 @@ function calculateDiscount(redemption) {
     rent: -600,
     interestOnDeposit: 250,
     otherExpences: -300
+
+    personIncomes.salary = personIncomes - rent - interestOnDeposit - otherExpences;
+
   };
 }
 
