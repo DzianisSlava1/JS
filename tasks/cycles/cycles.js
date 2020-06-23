@@ -14,7 +14,7 @@ function calculateDiscount(redemption) {
   let discount;
   let sum;
   
-  while (sum <= 350) {
+  if (sum <= 350) {
     console.log(discount);
     discount = 0%;
 
@@ -44,9 +44,21 @@ function calculateDiscount(redemption) {
  * implement factorial algorithm using for, while, do..while operators
  */
 {
-  const i = 10; //10! = 3628800
-  while ( i < 3628800) {console.log(i)
-  do i++;
+    function factorialize(const)
+        const i = 10; //10! = 3628800;
+        let result = i;
+    if (i === 10)
+    return 10;
+    while (i > 10){
+i--;
+result *= i;
+    }
+    return result;
+factorialize(10);
+
+
+
+}
 
   };
 
@@ -81,3 +93,5 @@ function calculateDiscount(redemption) {
 }
 
 module.exports = calculateDiscount;
+
+
