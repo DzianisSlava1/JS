@@ -12,32 +12,32 @@
 
 function calculateDiscount(redemption) {
   let discount;
-  let sum;
   
-  if (sum <= 350) {
+  
+  if (redemption <= 350) {
+    discount = '0%';
     console.log(discount);
-    discount = 0%;
+    }
 
-    else if (sum <= 351 or >= 1350);
+    else if (redemption <= 351 || redemption >= 1350)
      {
+      discount = '15%';
       console.log(discount);
-      discount = 15%;
+      }
 
-      else if (sum <= 1351 or >= 2700);
+      else if (redemption <= 1351 || redemption >= 2700)
      {
+      discount = '30%';
       console.log(discount);
-      discount = 30%;
+      }
 
-      else if (sum <= 2701 or >= 6500);
+      else if (redemption <= 2701 || redemtion >= 6500)
      {
+      discount = '45%';
       console.log(discount);
-      discount = 45%;
+      }
 
-      then sum += console.log(discount);
-
-  }
-
-  return discount;
+      return discount;
 }
 
 /** TODO
@@ -55,26 +55,20 @@ result *= i;
     }
     return result;
 factorialize(10);
+};
 
-
-
-}
-
-  };
-
-
-}
 
 /**
  * return concatenated string from an array of substring
  */
 {
   const substr = ["I", " love", " JS"];
-  substr.text1 = "I";
-  substr.text2 = "love";
-  substr.text3 = "JS";
-  substr.text41 = text1 + text2 + test3;
+  substr.text1 = (arr[1]);
+  substr.text2 = (arr[2]);
+  substr.text3 = (arr[3]);
+  substr.text41 = (arr[1] + [2] + [3]);
 
+  
 }
 
 /**
