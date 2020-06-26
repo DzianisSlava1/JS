@@ -43,19 +43,19 @@ function calculateDiscount(redemption) {
 /** TODO
  * implement factorial algorithm using for, while, do..while operators
  */
-{
-    function factorialize(const)
+    
         const i = 10; //10! = 3628800;
-        let result = i;
-    if (i === 10)
-    return 10;
-    while (i > 10){
-i--;
-result *= i;
-    }
-    return result;
-factorialize(10);
-};
+        //число 10 умножать чтоб получилось 3628800
+
+let number = i;
+let result = 0;
+
+        do {
+        result = number * number - 1;
+        number = --number;
+        result += result; 
+        }        
+        while (number === 0);
 
 
 /**
@@ -63,10 +63,7 @@ factorialize(10);
  */
 {
   const substr = ["I", " love", " JS"];
-  substr.text1 = (arr[1]);
-  substr.text2 = (arr[2]);
-  substr.text3 = (arr[3]);
-  substr.text41 = (arr[1] + [2] + [3]);
+  //обьявить цикл for ... of, сконкотенировать элементы массива
 
   
 }
@@ -81,7 +78,7 @@ factorialize(10);
     interestOnDeposit: 250,
     otherExpences: -300
 
-    personIncomes.salary = personIncomes - rent - interestOnDeposit - otherExpences;
+//использовать цикл for ... in
 
   };
 }
