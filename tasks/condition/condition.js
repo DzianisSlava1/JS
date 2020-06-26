@@ -7,12 +7,8 @@
   const a = 3,
         b = 2;
 
-  if (a + b < 4) {
-    console.log('wrong');
-  } else {
-    console.log('too much');
-  }
-}
+const plus = (a + b == 4)? "Wrong":"Too much";
+
 
 /** TODO
  * The system receives two params x and y.
