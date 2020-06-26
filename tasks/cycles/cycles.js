@@ -61,12 +61,13 @@ let result = 0;
 /**
  * return concatenated string from an array of substring
  */
-{
-  const substr = ["I", " love", " JS"];
-  //обьявить цикл for ... of, сконкотенировать элементы массива
 
-  
-}
+  const substr = ["I", " love", "JS"];
+  let string = "";
+  for(let element of array){
+    string += element;
+  }
+
 
 /**
  * calculate a total of income of certain person
@@ -77,12 +78,22 @@ let result = 0;
     rent: -600,
     interestOnDeposit: 250,
     otherExpences: -300
-
-//использовать цикл for ... in
-
   };
+
+  let income;
+  let sumTotal;
+
+  for (let month in personIncomes){
+sumTotal += personIncomes[month];
+  }
+const avg = sumTotal - 900;
+console.log(avg);
+  }
+
+
+  
 }
 
-module.exports = calculateDiscount;
+
 
 
