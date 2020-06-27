@@ -3,8 +3,8 @@
 /** TODO
  * Task - rewrite IF..ELSE to ternary operator
  */
-{
-  const a = 3,
+
+const a = 3,
         b = 2;
 
 const plus = (a + b == 4)? "Wrong":"Too much";
