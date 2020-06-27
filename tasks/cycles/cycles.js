@@ -86,7 +86,6 @@ let result = 0;
   for (let month in personIncomes){
 sumTotal += personIncomes[month];
   }
-const avg = sumTotal - 900;
 console.log(avg);
   }
 
