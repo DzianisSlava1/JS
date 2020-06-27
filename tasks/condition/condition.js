@@ -20,12 +20,13 @@ const plus = (a + b == 4)? "Wrong":"Too much";
 
     const x = 3;
     const y = 7;
-    const z = x + y;
+    let z = x + y;
 
     if (x + y < 10) {
       console.log('That is right');
     }
-
+          z = (x * y)? "Greater":"Equal"; 
+          
 
 /** TODO
  * The system receives 3 params - x, y, operator.
