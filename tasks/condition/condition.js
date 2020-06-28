@@ -18,14 +18,16 @@ const plus = (a + b == 4)? "Wrong":"Too much";
  * Task 2 - ternary operator
  */
 
-    const x = 3;
-    const y = 7;
-    let z = x + y;
-
-    if (x + y < 10) {
-      console.log('That is right');
-    }
-          z = (x * y)? "Greater":"Equal"; 
+const x = 3;
+const y = 7;
+var result = 0;
+if (x < 10 && y < 10){
+    result = x + y;
+}
+else if(x >= 10 && y >= 10){
+    result = x * y;
+}
+console.log(result);
           
 
 /** TODO
