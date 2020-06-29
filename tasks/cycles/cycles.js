@@ -45,17 +45,44 @@ function calculateDiscount(redemption) {
  */
     
         const i = 10; //10! = 3628800;
-        //число 10 умножать чтоб получилось 3628800
+        
+function forFactorial
+{
+	let result = 1;
+  
+	for(let i = n; i != 0; i--)
+  {
+  	result *= i;
+  }
+  return result
+}
 
-let number = i;
-let result = 0;
 
-        do {
-        result = number * number - 1;
-        number = --number;
-        result += result; 
-        }        
-        while (number === 0);
+function whileFactorial
+
+{let result = 1;
+  
+	while(n != 0)
+  {
+  	result *= n;
+    n--;
+  }
+  
+  return result
+}
+
+function doWhileFactorial
+{
+	let result = 1;
+  
+	do
+  {
+  	result *= n;
+    n--;
+  }while(n != 0)
+  
+  return result
+}
 
 
 /**

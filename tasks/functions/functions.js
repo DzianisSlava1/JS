@@ -3,36 +3,48 @@
  *
  */
 function add(a, b) {
-
-}
+	return (a, b);
+	}
 
 /**
- * write function that return first and last name of given object
+ * write function that returns first and last name of given object
  * properties firstName and lastName
  * {
  *    firstName: "John"
  *    lastName: "Dou"
  * }
  */
-function getFullName(object) {
+function getFullName(object)
+	let fullName = object.firstName + object.lastName;
+	return fullName;
 
-}
 
 /**
- * write fuction that checks is number is odd
+ * write function that checks is number is odd
  * true if odd, false if even
  */
 function isOdd(n) {
-
+	if (n == 0)
+	return function(false);
+}
+if (n !==0){
+return function(true);
 }
 
 /**
- * write function that return shortest of words in given array
+ * write function that returns shortest of words in given array
  * e.g ["one", "two", "three"] should return one
  */
-function getShortest(wordArray) {
 
-}
+function findShortestWord(str){
+	let words = [ one, two, three];
+}	
+			  		for ( i = 0; i < words.length; i++ ){
+		  let length = words[i].length;   
+		  let min = Math.min(...words.map(({ length }) => length));
+          return min; 		
+	  }
+
 
 /**
  * write function that returns word google with given numbers of "o" symbols
