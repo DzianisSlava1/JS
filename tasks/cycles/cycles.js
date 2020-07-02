@@ -12,47 +12,36 @@
 
 function calculateDiscount(redemption) {
   let discount;
-  
-  
+
+
   if (redemption <= 350) {
     discount = '0%';
     console.log(discount);
-    }
+  } else if (redemption <= 351 || redemption >= 1350) {
+    discount = '15%';
+    console.log(discount);
+  } else if (redemption <= 1351 || redemption >= 2700) {
+    discount = '30%';
+    console.log(discount);
+  } else if (redemption <= 2701 || redemtion >= 6500) {
+    discount = '45%';
+    console.log(discount);
+  }
 
-    else if (redemption <= 351 || redemption >= 1350)
-     {
-      discount = '15%';
-      console.log(discount);
-      }
-
-      else if (redemption <= 1351 || redemption >= 2700)
-     {
-      discount = '30%';
-      console.log(discount);
-      }
-
-      else if (redemption <= 2701 || redemtion >= 6500)
-     {
-      discount = '45%';
-      console.log(discount);
-      }
-
-      return discount;
+  return discount;
 }
 
 /** TODO
  * implement factorial algorithm using for, while, do..while operators
  */
-    
-        const i = 10; //10! = 3628800;
-        
-function forFactorial
-{
-	let result = 1;
-  
-	for(let i = n; i != 0; i--)
-  {
-  	result *= i;
+
+const i = 10; //10! = 3628800;
+
+function forFactorial {
+  let result = 1;
+
+  for (let i = n; i != 0; i--) {
+    result *= i;
   }
   return result
 }
@@ -60,27 +49,25 @@ function forFactorial
 
 function whileFactorial
 
-{let result = 1;
-  
-	while(n != 0)
-  {
-  	result *= n;
+{
+  let result = 1;
+
+  while (n != 0) {
+    result *= n;
     n--;
   }
-  
+
   return result
 }
 
-function doWhileFactorial
-{
-	let result = 1;
-  
-	do
-  {
-  	result *= n;
+function doWhileFactorial {
+  let result = 1;
+
+  do {
+    result *= n;
     n--;
-  }while(n != 0)
-  
+  } while (n != 0)
+
   return result
 }
 
@@ -89,11 +76,11 @@ function doWhileFactorial
  * return concatenated string from an array of substring
  */
 
-  const substr = ["I", " love", "JS"];
-  let string = "";
-  for(let element of array){
-    string += element;
-  }
+const substr = ["I", " love", "JS"];
+let string = "";
+for (let element of array) {
+  string += element;
+}
 
 
 /**
@@ -110,16 +97,12 @@ function doWhileFactorial
   let income;
   let sumTotal;
 
-  for (let month in personIncomes){
-sumTotal += personIncomes[month];
+  for (let month in personIncomes) {
+    sumTotal += personIncomes[month];
   }
-console.log(avg);
-  }
-
-
-  
+  console.log(avg);
 }
 
 
 
-
+}
